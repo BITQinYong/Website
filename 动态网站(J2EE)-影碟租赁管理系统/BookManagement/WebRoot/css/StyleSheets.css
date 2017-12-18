@@ -1,0 +1,48 @@
+@charset "UTF-8";
+* {margin:0 auto;padding:0 auto;}
+html,body {background:#f7f6f1 url() repeat-x;width:100%;text-align:left;font:normal 12px/1.6em simsun, Verdana, Lucida, Arial, Helvetica, sans-serif;color:#353535;}
+div{white-space:normal;overflow:hidden;}
+li{list-style-type:none;}
+.mainbox{width:960px;height:auto;}
+img{border:none;}
+a {text-decoration:none;color:#353535;}
+a:hover {color:#CD0102;}
+.left{float:left;width:230px;text-align:right;}
+.right{float:left;width:730px;text-align:left;}
+.logo{background:URL(../image/title.jpg) no-repeat;width:180px;height:155px;margin-top:10px; background-size: cover;}
+
+.menu{line-height:30px;margin-top:10px;font-size:15px;font-weight:bold;}
+.menu li{display:inline; float:left;margin-left:10px}
+.search-text
+{
+	width:200px;
+}
+
+.rightop{margin-top:1px;background:url(../image/rightop.jpg) no-repeat;width:730px;height:126px;}
+.toplink{margin:25px 0 0 235px;width:360px;text-align:left;}
+.toplink ul{margin:0;padding:0}
+.toplink li{margin:0;width:120px;display:inline;text-align:left;}
+.toplink li a{float:left;width:120px;height:30px;}
+
+.rightmid{background:url(../image/rightmid.jpg) repeat-y;width:730px;height:auto;}
+.title{margin-top:5px;margin-bottom:5px;background:url(../image/titlebg.jpg) no-repeat;width:730px;height:100px;text-align:center}
+.title div{width:600px;margin:0 auto;text-align:left}
+.datainfo{background:#f9f9f9;border-top:1px solid #DBDBD0;width:85%;height:auto;}
+
+
+
+.rightb{background:url(../image/rightb.jpg) no-repeat;width:730px;height:104px;}
+
+
+.copyright{float:left;margin-left:5px;text-align:right;height:50px;background:#f9f9f9;border-top:1px solid #DBDBD0;width:900px;}
+
+.bookInsertForm
+{
+	width: 360px;
+	float:left;
+}
+.imageInsert
+{
+	width: 100px;
+	float:left;
+}

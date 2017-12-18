@@ -1,0 +1,2 @@
+1.使用CSS必须有   !DOCTYPE  
+2.outline：只有在规定了 !DOCTYPE 时，Internet Explorer 8 （以及更高版本） 才支持 outline 属性

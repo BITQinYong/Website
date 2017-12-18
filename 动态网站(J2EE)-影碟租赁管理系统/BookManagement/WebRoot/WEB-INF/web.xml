@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>BookInfoDeleteServlet</servlet-name>
+		<servlet-class>com.servlet.BookInfoDeleteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BookInfoDeleteServlet</servlet-name>
+		<url-pattern>/BookInfoDeleteServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BookInfoInsertServlet</servlet-name>
+		<servlet-class>com.servlet.BookInfoInsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BookInfoInsertServlet</servlet-name>
+		<url-pattern>/BookInfoInsertServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BookInfoSelectServlet</servlet-name>
+		<servlet-class>com.servlet.BookInfoSelectServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BookInfoSelectServlet</servlet-name>
+		<url-pattern>/BookInfoSelectServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BookInfoUpdateServlet</servlet-name>
+		<servlet-class>com.servlet.BookInfoUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BookInfoUpdateServlet</servlet-name>
+		<url-pattern>/BookInfoUpdateServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>BorrowInfoDeleteServlet</servlet-name>
+		<servlet-class>com.servlet.BorrowInfoDeleteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrowInfoDeleteServlet</servlet-name>
+		<url-pattern>/BorrowInfoDeleteServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BorrowInfoInsertServlet</servlet-name>
+		<servlet-class>com.servlet.BorrowInfoInsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrowInfoInsertServlet</servlet-name>
+		<url-pattern>/BorrowInfoInsertServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BorrowInfoSelectServlet</servlet-name>
+		<servlet-class>com.servlet.BorrowInfoSelectServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrowInfoSelectServlet</servlet-name>
+		<url-pattern>/BorrowInfoSelectServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BorrowInfoUpdateServlet</servlet-name>
+		<servlet-class>com.servlet.BorrowInfoUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrowInfoUpdateServlet</servlet-name>
+		<url-pattern>/BorrowInfoUpdateServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>FileDownloadServlet</servlet-name>
+		<servlet-class>com.servlet.FileDownloadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FileDownloadServlet</servlet-name>
+		<url-pattern>/FileDownloadServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>FileUploadServlet</servlet-name>
+		<servlet-class>com.servlet.FileUploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FileUploadServlet</servlet-name>
+		<url-pattern>/FileUploadServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>ManagerExitServlet</servlet-name>
+		<servlet-class>com.servlet.ManagerExitServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ManagerExitServlet</servlet-name>
+		<url-pattern>/ManagerExitServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ManagerLoginServlet</servlet-name>
+		<servlet-class>com.servlet.ManagerLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ManagerLoginServlet</servlet-name>
+		<url-pattern>/ManagerLoginServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>MenuHideServlet</servlet-name>
+		<servlet-class>com.servlet.MenuHideServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MenuHideServlet</servlet-name>
+		<url-pattern>/MenuHideServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MenuShowServlet</servlet-name>
+		<servlet-class>com.servlet.MenuShowServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MenuShowServlet</servlet-name>
+		<url-pattern>/MenuShowServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>UserBorrowBookServlet</servlet-name>
+		<servlet-class>com.servlet.UserBorrowBookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserBorrowBookServlet</servlet-name>
+		<url-pattern>/UserBorrowBookServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserExitServlet</servlet-name>
+		<servlet-class>com.servlet.UserExitServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserExitServlet</servlet-name>
+		<url-pattern>/UserExitServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserInfoDeleteServlet</servlet-name>
+		<servlet-class>com.servlet.UserInfoDeleteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserInfoDeleteServlet</servlet-name>
+		<url-pattern>/UserInfoDeleteServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserInfoInsertServlet</servlet-name>
+		<servlet-class>com.servlet.UserInfoInsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserInfoInsertServlet</servlet-name>
+		<url-pattern>/UserInfoInsertServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserInfoSelectServlet</servlet-name>
+		<servlet-class>com.servlet.UserInfoSelectServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserInfoSelectServlet</servlet-name>
+		<url-pattern>/UserInfoSelectServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserInfoUpdateServlet</servlet-name>
+		<servlet-class>com.servlet.UserInfoUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserInfoUpdateServlet</servlet-name>
+		<url-pattern>/UserInfoUpdateServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserLoginServlet</servlet-name>
+		<servlet-class>com.servlet.UserLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLoginServlet</servlet-name>
+		<url-pattern>/UserLoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserRegisterServlet</servlet-name>
+		<servlet-class>com.servlet.UserRegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserRegisterServlet</servlet-name>
+		<url-pattern>/UserRegisterServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserRenewBorrowServlet</servlet-name>
+		<servlet-class>com.servlet.UserRenewBorrowServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserRenewBorrowServlet</servlet-name>
+		<url-pattern>/UserRenewBorrowServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserReturnBookServlet</servlet-name>
+		<servlet-class>com.servlet.UserReturnBookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserReturnBookServlet</servlet-name>
+		<url-pattern>/UserReturnBookServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UserSelectBookServlet</servlet-name>
+		<servlet-class>com.servlet.UserSelectBookServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserSelectBookServlet</servlet-name>
+		<url-pattern>/UserSelectBookServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UserUpdateInfoServlet</servlet-name>
+		<servlet-class>com.servlet.UserUpdateInfoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserUpdateInfoServlet</servlet-name>
+		<url-pattern>/UserUpdateInfoServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UserUpdatePasswordServlet</servlet-name>
+		<servlet-class>com.servlet.UserUpdatePasswordServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserUpdatePasswordServlet</servlet-name>
+		<url-pattern>/UserUpdatePasswordServlet</url-pattern>
+	</servlet-mapping>
+
+</web-app>
+
